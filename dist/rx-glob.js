@@ -22,7 +22,6 @@ function rxGlob() {
         args[_key] = arguments[_key];
     }
 
-    console.log.apply(console, args);
     return rxGlobArray.apply(undefined, args).flatMap(_rx2['default'].Observable.from).tapOnNext(console.log);
 }
 
