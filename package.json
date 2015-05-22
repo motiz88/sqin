@@ -1,6 +1,6 @@
 {
   "name": "sqin",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Command-line utilities for database change management, inspired by Sqitch",
   "bin": {
     "sqin": "dist/cli/sqin.js"
