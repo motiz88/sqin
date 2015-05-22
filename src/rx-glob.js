@@ -7,7 +7,6 @@ export
 default
 
 function rxGlob(...args) {
-    console.log(...args);
     return rxGlobArray(...args).flatMap(Rx.Observable.from)
         .tapOnNext(console.log);
 }
