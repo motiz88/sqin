@@ -1,0 +1,15 @@
+{
+    "env": {
+        "es6": true,
+        "node": true
+    },
+    "parser": "babel-eslint",
+    "rules": {
+        "strict": 0,
+        "quotes": [0, "double"],
+        "curly": 0
+    },
+    "ecmaFeatures": {
+    	"modules": true
+    }
+}
