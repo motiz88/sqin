@@ -7,8 +7,7 @@ export
 default
 
 function rxGlob(...args) {
-    return rxGlobArray(...args).flatMap(Rx.Observable.from)
-        .tapOnNext(console.log);
+    return rxGlobArray(...args).flatMap(Rx.Observable.from);
 }
 
 rxGlob.hasMagic = glob.hasMagic;
