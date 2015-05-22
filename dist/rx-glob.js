@@ -22,7 +22,7 @@ function rxGlob() {
         args[_key] = arguments[_key];
     }
 
-    return rxGlobArray.apply(undefined, args).flatMap(_rx2['default'].Observable.from).tapOnNext(console.log);
+    return rxGlobArray.apply(undefined, args).flatMap(_rx2['default'].Observable.from);
 }
 
 rxGlob.hasMagic = _glob2['default'].hasMagic;
