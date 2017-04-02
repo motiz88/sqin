@@ -1,5 +1,7 @@
 # sqin 
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/motiz88/sqin.svg)](https://greenkeeper.io/)
+
 Command-line utilities for database change management, inspired by [Sqitch](http://sqitch.org) and aiming to keep compatibility with it where applicable.
 
 >**NOTE:** This program is in a _very_ rough state. You probably want Sqitch itself for anything serious. At this point `sqin` is mainly a placeholder built around my specific need for `sqin resolve`, which pulls and concatenates SQL deploy script dependencies into one large script.
